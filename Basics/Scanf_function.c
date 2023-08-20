@@ -11,7 +11,23 @@ int main()  // main function
 	// user input will be taken into the variable using this function
 	scanf("%s", name);
 
-  // printing the output as usual
+  	// printing the output as usual
 	printf("Your name is %s.", name);
+
+	// using this "\n" command, you can get the output in a new line
+	printf("\n\n");
+
+// C program to take an integer as input and print it
+
+	// Declare the variables using int data type
+	int num;
+
+	// Input the integer value
+	printf("Enter the integer: ");
+	scanf("%d", &num);
+
+	// Display the integer value using printf function
+	printf("Entered integer is: %d", num);
+
 	return 0;
 }
