@@ -11,6 +11,6 @@ int main()
 
 	// you can prints hellow world by using printf command
 	printf("Hellow world");
-  // we can ends the execution of this function using this command line
+  	// we can ends the execution of this function using this command line
 	return 0;
 }
