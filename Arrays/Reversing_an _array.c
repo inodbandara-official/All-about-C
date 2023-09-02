@@ -1,4 +1,9 @@
 // Iterative C program to reverse an array
+/*
+1. Initialize two variables start = 0 as starting index and end = n-1 as the end index.
+2. Swap arr[start] and arr[end] till the start index is less than the end index.
+3. Update the start index as start + 1 and the end index as end – 1.
+*/
 #include <stdio.h>
 
 // Function to reverse arr[] from start to end
