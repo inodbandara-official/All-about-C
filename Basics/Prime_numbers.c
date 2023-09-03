@@ -2,6 +2,7 @@
 
 #include <stdbool.h>
 #include <stdio.h>
+// #include <math.h>
 
 // This function is to check if a given number is prime
 bool isPrime(int n)
@@ -10,7 +11,9 @@ bool isPrime(int n)
 	if (n == 1 || n == 0)
 		return false;
 
-	// Run a loop from 2 to n/2
+	// Run a loop from 2 to n/2 --This function can be further optimized by checking not up to half
+	// but upto square root. Include math.h header file
+	// for (int i = 2; i <= sqrt(n); i++) {
 	for (int i = 2; i <= n / 2; i++) {
 
 		// if the number is divisible by i, then n is not a prime number, otherwise n is prime number.
