@@ -8,6 +8,7 @@ void checkPrime(int N)
 	int flag = 1;
 
 	// loop to iterate through 2 to N/2
+	// This can be further optimized. See the Prime_numbers.c code
 	for (int i = 2; i <= N / 2; i++) {
 
 		// if N is perfectly divisible by i flag is set to 0 i.e false
@@ -17,6 +18,7 @@ void checkPrime(int N)
 		}
 	}
 
+	// Or you can add this printing part to the prime check loop also which would optimize the code more
 	if (flag) {
 		printf("The number %d is a Prime Number\n", N);
 	}
