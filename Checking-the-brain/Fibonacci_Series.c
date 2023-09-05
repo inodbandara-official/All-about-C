@@ -18,8 +18,7 @@ void fib(int n)
 	return fib(n - 1);
 }
 
-// function that handles the first two terms and calls the
-// recursive function
+// function that handles the first two terms and calls the recursive function
 void printFib(int n)
 {
 	// when the number of terms is less than 1
